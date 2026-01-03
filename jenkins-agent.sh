@@ -11,6 +11,7 @@ xfs_growfs /home
 xfs_growfs /var/tmp
 xfs_growfs /var
 
+#installing java-jdk,yum-utils,terraform,nodejs
 yum install java-17-openjdk -y
 yum install -y yum-utils
 yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
